@@ -6,7 +6,8 @@ namespace ClassExercise
     {
         static void Main(string[] args)
         {
-            var myfirstCar = new Car("Volkswagen", "Jetta", 2016);
+            var myFirstCar = new Car("Volkswagen", "Jetta", 2016);
+            Console.WriteLine(myFirstCar);
         }
     }
 }
